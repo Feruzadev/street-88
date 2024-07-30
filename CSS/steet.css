@@ -83,7 +83,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
 }
 
 .header-logo {
@@ -141,8 +140,6 @@ header nav a:hover {
 }
 
 .hero h1 {
-    max-width: 732px;
-    width: 100%;
     color: #69CF17;
     font-family: "Raleway";
     font-size: 72px;
@@ -181,9 +178,9 @@ header nav a:hover {
 }
 
 .hero__wrapper .btn1 {
-    width: max-content;
     padding: 32px 76px;
     background: rgba(105, 207, 23, 0.50);
+    flex-shrink: 0;
     backdrop-filter: blur(9px);
     color: #FFF;
     text-align: center;
@@ -196,7 +193,6 @@ header nav a:hover {
 }
 
 .hero__wrapper .btn2 {
-    width: max-content;
     padding: 15px 70px;
     border-radius: 6px;
     background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
@@ -224,83 +220,35 @@ header nav a:hover {
     background-color: #0C0C0CB8;
 }
 
-.menu {
-    padding-top: 78px;
-    background: #393636;
-    max-width: 1600px;
-    width: 100%;
-    height: 100%;
-    /* display: flex; */
-    margin: auto;
-    margin-bottom: 50px;
-
-}
-
-.menu-cards {
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-
-
-}
-
-.menu-card {
-    margin: auto;
-    width: 350px;
-    height: 524px;
-    padding: 15px;
-    border-radius: 4px;
-    border: 1px solid #FFF;
+.street {
+    width: 1600px;
     background: #0C0C0C;
-
-
-
+    margin: auto;
 }
-
-.menu-image {
-    width: 325px;
-    height: 325px;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; */
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-
-
-}
-
-.menu-content {
-    /* width: 100%;
-    height: 100%;
-    background: rgba(105, 207, 23, 0.90);
+.d-flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     */
+    gap: 30px;
+
 }
 
-.menu-title {
+.street-img {
+    width: 1110px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(12, 12, 12, 0.44) 0%, rgba(12, 12, 12, 0.44) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-top: 30px;
+
+}
+.street-text {
+    width: 1110px;
+    height: 403px;
     color: #FFF;
+    text-align: justify;
     font-family: "Raleway";
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 15px;
-    /* 78.947% */
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-.menu-text {
-    width: 100%;
-    color: #FFF;
-    font-family: "Raleway";
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 25px; /* 131.579% */
+    line-height: 25px; /* 138.889% */
+    margin-bottom: 30px;
 
 }
 
@@ -320,8 +268,7 @@ header nav a:hover {
     line-height: 40px;
     /* 80% */
     background: #FFF;
-    max-width: 1600px;
-    width: 100%;
+    width: 1600px;
     height: 80px;
     text-align: center;
     padding-top: 20px;
@@ -329,8 +276,7 @@ header nav a:hover {
 }
 
 .main-karta__karta {
-    max-width: 1600px;
-    width: 100%;
+    width: 1600px;
     height: 500px;
 }
 

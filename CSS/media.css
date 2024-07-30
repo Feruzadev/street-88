@@ -64,3 +64,51 @@
         font-size: 20px;
     }
 }
+
+@media (max-width:1320px) {
+    .main-karta__karta {
+        max-width: unset;
+        width: 100%;
+        margin: auto;
+    }    
+}
+
+@media (max-width:992px)  {
+    .footer-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .hero__wrapper .btn1 {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .hero__wrapper .btn2 {
+        margin: auto;
+    }
+}
+
+
+@media (max-width:412px) {
+    .footer-logo {
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+
+    .hero h1 {
+        font-size: 60px;
+     }
+}
+
+
+
+
+
+
